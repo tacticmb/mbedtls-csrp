@@ -38,3 +38,4 @@ You need to take care of entropy to achieve cryptograhically sound random values
 For real world use, you should change the implementation in init_random() to supply your own seed
 values. Also make sure to add entropy sources to your mbedtls port.
 
+Testing SSH auth
